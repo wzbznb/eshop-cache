@@ -44,6 +44,7 @@ public class CacheController {
 		
 		productInfo = cacheService.getProductInfoFromReidsCache(productId);
 		if(productInfo != null) {
+			 System.out.println("git测试下来到eclipse222222");	
 			System.out.println("=================从redis中获取缓存，商品信息=" + productInfo);   
 		}
 		
