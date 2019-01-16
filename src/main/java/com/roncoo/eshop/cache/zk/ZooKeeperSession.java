@@ -48,8 +48,11 @@ public class ZooKeeperSession {
 			}
 
 			System.out.println("ZooKeeper session established......");
-			System.out.println("git测试上传到github");
-			System.out.println("git测试上传到github");
+			System.out.println("git测试上传到github2");
+			System.out.println("git测试上传到github2");
+			System.out.println("git测试上传到github2");
+			System.out.println("git测试上传到github2");
+			System.out.println("git测试上传到github2");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
