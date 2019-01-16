@@ -46,7 +46,7 @@ public class KafkaConsumer implements Runnable {
 	 */
 	private static ConsumerConfig createConsumerConfig() {
         Properties props = new Properties();
-        System.out.println("git测试下来到eclipse");	
+        System.out.println("git测试下来到eclipse2222");	
         props.put("zookeeper.connect", "192.168.1.101:2181,192.168.1.102:2181,192.168.1.103:2181");
         props.put("group.id", "eshop-cache-group");
         props.put("zookeeper.session.timeout.ms", "40000");
