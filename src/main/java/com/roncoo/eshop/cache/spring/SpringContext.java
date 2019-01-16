@@ -16,6 +16,7 @@ public class SpringContext {
 	}
 
 	public static void setApplicationContext(ApplicationContext applicationContext) {
+		System.out.println("12345"); 
 		SpringContext.applicationContext = applicationContext;
 	}
 	
