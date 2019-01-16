@@ -45,7 +45,8 @@ public class RebuildCacheThread implements Runnable {
 				}
 				System.out.println("current date[" + productInfo.getModifiedTime() + "] is after existed date[" + existedProductInfo.getModifiedTime() + "]");
 			} else {
-				System.out.println("existed product info is null......");   
+				System.out.println("existed product info is null......");
+				System.out.println("123123231241"); 
 			}
 			
 			cacheService.saveProductInfo2LocalCache(productInfo);
