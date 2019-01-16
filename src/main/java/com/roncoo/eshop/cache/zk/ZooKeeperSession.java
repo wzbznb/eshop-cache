@@ -48,8 +48,9 @@ public class ZooKeeperSession {
 			}
 
 			System.out.println("ZooKeeper session established......");
-			System.out.println("git下拉到eclipse测试2");
-			System.out.println("git下拉到eclipse测试2");
+			System.out.println("git下拉到eclipse测试3");
+			System.out.println("git下拉到eclipse测试3");
+			System.out.println("git下拉到eclipse测试3;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
