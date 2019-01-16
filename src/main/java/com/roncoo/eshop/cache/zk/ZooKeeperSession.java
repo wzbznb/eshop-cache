@@ -48,6 +48,9 @@ public class ZooKeeperSession {
 			}
 
 			System.out.println("ZooKeeper session established......");
+			System.out.println("ZooKeeper session established......");
+			System.out.println("ZooKeeper session established......");
+			System.out.println("ZooKeeper session established......");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
